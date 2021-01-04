@@ -5,14 +5,24 @@ body{
 }
 h1{
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 600;
+}
+p{
+    font-size: 20px;
+    color: grey;
+}
+.color-word{
+    color: orange;
 }
 .navbar{
+    width: 100%;
     font-size: 20px;
     font-weight: 500;
     background: orange;
     padding: 5px;
     text-align: center;
+    position: fixed;
+    
 
 }
 .nav-link{
@@ -20,27 +30,170 @@ h1{
     margin: 5px 40px;
     color: white;
     padding: 5px;
-
 }
 .nav-link:hover{
     text-decoration: underline;
     background-color: #ff5200;
+    transition: 0.5s;
 }
 section{
 width: 100%;
-height: 50%;
+height: 650px;
 
 }
 .top-section{
   background-image: url("background/top-banner.png");
+  background-repeat: no-repeat;
+    padding-top: 17px;
 }
-.half-width{
-    width: 44%;
-    padding: 2%;
-    margin: 1%;
+.half-width {
+    width: 45%;
+    padding: 1%;
+    margin-left: 3%;
     float: left;
 }
 
 .half-width img{
-    width: 100%;
+    width: 90%;
+   
+}
+.hire-button{
+    border: 1px orange solid;
+    padding: 8px 25px;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     text-decoration: none;
+     background-image: linear-gradient( 90deg, #ff5200, orange);
+     border-radius: 10px;
+}
+.hire-button:hover{
+    text-decoration: underline;
+     background-image: linear-gradient( 90deg, orange, #ff5200);
+     transition: 0.5s;
+     padding-right: 40px; 
+}
+
+.resume-link{
+    border: 1px orange solid;
+    padding: 8px 25px;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+     text-decoration: none;
+     background-image: linear-gradient( 90deg, #ff5200, orange);
+     border-radius: 10px;
+}
+
+.resume-link:hover{
+    text-decoration: underline;
+     background-image: linear-gradient( 90deg, orange, #ff5200);
+     transition: 0.5s;
+     padding-right: 40px; 
+}
+ .html{
+     
+     padding: 3px 90px;
+     border: 2px solid #eea303;
+     border-radius: 25px;
+     background-color: orange;
+     color: white;
+ }
+ .css{
+    padding: 3px 80px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+ .javascript{
+    padding: 3px 40px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+ .bootstrap{
+    padding: 3px 0px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+ .mongobd{
+    padding: 3px 0px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+ .react{
+    padding: 3px 0px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+ .vue-js{
+    padding: 3px 0px;
+    border: 2px solid #eea303;
+    border-radius: 25px;
+    background-color: orange;
+    color: white;   
+ }
+
+
+ .send-button{
+    border: 1px orange solid;
+    padding: 8px 35px;
+     color: white;
+     font-size: 20px;
+     font-weight: 600;
+    
+     background-image: linear-gradient( 90deg, #ff5200, orange);
+     border-radius: 10px;
+} 
+.send-button:hover{
+    cursor: pointer;
+     background-image: linear-gradient( 90deg, orange, #ff5200);
+     transition: 0.5s;
+   
+}
+#massage{
+    border: 5px solid wheat;
+    height: 150px;
+    width: 350px;
+    background: #bebcbc54;
+    
+}
+
+.email{
+    height: 20px;
+    width: 38%;
+    border: grey 4px solid;
+    border-radius: 10px;
+}
+ 
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+    padding-bottom: 20px;
+}
+.contact{
+    color: blue;
+    text-decoration: none;
+}
+.contact:hover{
+    color: orange;
+    text-decoration: underline;
+}
+
+#baby-web{
+    margin-top: 40px;
+    width: 42%;
+    border: 3px wheat solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px orange;
 }
