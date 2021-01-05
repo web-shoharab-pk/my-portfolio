@@ -141,7 +141,9 @@ height: 650px;
     background-color: orange;
     color: white;   
  }
-
+.web{
+    height: 45vh;
+}
 
  .send-button{
     border: 1px orange solid;
@@ -180,6 +182,7 @@ footer{
     font-weight: 400;
     color: grey;
     padding-bottom: 20px;
+     display: block;
 }
 .contact{
     color: blue;
@@ -200,4 +203,10 @@ footer{
 #baby-web:hover{
     box-shadow: 5px 5px 10px 10px orange;
     cursor: pointer;
+}
+
+.information{
+    border-left: 8px solid gainsboro;
+    border-radius: 10px;
+    
 }
